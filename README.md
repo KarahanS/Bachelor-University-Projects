@@ -1,6 +1,6 @@
 # Boğaziçi University CmpE Projects
 
-### [CmpE150 - Introduction to Computing](/cmpe150)
+### [CmpE150 - Introduction to Computing](https://github.com/KarahanS/University-Projects/tree/master/CmpE150%20-%20Introduction%20to%20Computing)
 - [Project 1](/cmpe150/project1) `Java`
 - [Project 2](/cmpe150/project2) `Java`
 - [Project 3](/cmpe150/project3) `Java`
