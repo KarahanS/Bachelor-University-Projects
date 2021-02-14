@@ -1,0 +1,37 @@
+2 36 230
+0 1 0 And Minerva said, "Father,
+3 0 1
+3 0 0
+0 1 0 son of Saturn, King
+0 1 0 of kings, if, then,
+0 1 0 the gods now mean
+0 1 0 that Ulysses should get
+0 0 1 home, we should first
+3 0 1
+0 1 0 send Mercury to the
+0 1 0 Ogygian island to tell
+0 1 0 Calypso that we have
+1 0
+2 1 3
+1 1
+2 0 0
+61 0
+2 0 2
+4 0 0
+61 1
+0 1 0 made up our minds
+0 1 0 and that he is
+0 1 0 to return. In the
+0 0 0 meantime I will go
+2 0 2
+61 0
+1 0
+0 0 0 to Ithaca, to put
+61 1
+61 1
+21 0 1
+1 1
+2 1 0
+6
+61 0
+61 1

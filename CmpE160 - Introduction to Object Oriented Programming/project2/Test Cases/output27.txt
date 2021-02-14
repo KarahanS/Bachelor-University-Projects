@@ -1,0 +1,37 @@
+	From: 0 to: 1
+	Received: 32 Read: 39
+	travelled
+	From: 0 to: 2
+	Received: 28 Read: 36
+	me,
+	From: 0 to: 1
+	Received: 32 Read: 39
+	travelled
+	From: 0 to: 2
+	Received: 28 Read: 36
+	me,
+	From: 0 to: 1
+	Received: 32 Read: 39
+	travelled
+	From: 0 to: 2
+	Received: 28 Read: 36
+	me,
+	From: 0 to: 1
+	Received: 32 Read: 39
+	travelled
+Current load of the server is 4 characters.
+	From: 1 to: 0
+	Received: 21 Read: 25
+	of
+	From: 0 to: 1
+	Received: 32 Read: 39
+	travelled
+	From: 1 to: 0
+	Received: 21 Read: 25
+	of
+	From: 1 to: 0
+	Received: 21 Read: 25
+	of
+	From: 0 to: 2
+	Received: 28 Read: 36
+	me,

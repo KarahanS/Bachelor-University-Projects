@@ -1,0 +1,15 @@
+Warning! Server is 50% full.
+Warning! Server is 80% full.
+	From: 1 to: 0
+	Received: 12 Read: 22
+	And Minerva said, "Father,
+	From: 1 to: 0
+	Received: 12 Read: 22
+	And Minerva said, "Father,
+Current load of the server is 35 characters.
+	From: 1 to: 0
+	Received: 33 Read: 39
+	made up our minds
+	From: 0 to: 1
+	Received: 14 Read: 41
+	home, we should first

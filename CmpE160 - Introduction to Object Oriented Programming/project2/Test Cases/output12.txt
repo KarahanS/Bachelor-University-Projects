@@ -1,0 +1,11 @@
+Warning! Server is 50% full.
+Warning! Server is 80% full.
+Current load of the server is 91 characters.
+Warning! Server is 50% full.
+Current load of the server is 78 characters.
+Warning! Server is 50% full.
+Warning! Server is 50% full.
+	From: 3 to: 0
+	Received: 21 Read: 25
+	messageRand_1
+Warning! Server is 50% full.

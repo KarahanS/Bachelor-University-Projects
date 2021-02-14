@@ -1,0 +1,8 @@
+Warning! Server is 50% full.
+Current load of the server is 324 characters.
+	From: 1 to: 2
+	Received: 31 Read: 33
+	So let it be with Caesar. The noble Brutus 
+	From: 4 to: 3
+	Received: 29 Read: 30
+	I come to bury Caesar, not to praise him. 

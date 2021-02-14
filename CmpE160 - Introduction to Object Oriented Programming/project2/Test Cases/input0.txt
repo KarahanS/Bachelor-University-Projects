@@ -1,0 +1,8 @@
+2 7 50
+3 0 1
+0 0 1 aaaaaaaaaaaaaa
+0 1 0 bbbbbbbbbbbbbbb
+1 1
+0 0 1 aaaaaaaaaaaaaaaa
+5
+0 0 1 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa

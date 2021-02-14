@@ -1,0 +1,25 @@
+3 24 500
+0 1 1 If you have tears, prepare to shed them now.
+3 0 0
+0 0 0 You all do know this mantle: I remember 
+0 2 1 The first time ever Caesar put it on; 
+3 1 0
+0 1 0 'Twas on a summer's evening, in his tent, 
+0 1 0 That day he overcame the Nervii: 
+3 1 1
+3 2 0
+0 2 0 Look, in this place ran Cassius' dagger through:
+0 0 1 See what a rent the envious Casca made: 
+0 2 0 Through this the well-beloved Brutus stabb'd;
+2 0 0
+0 2 0 And as he pluck'd his cursed steel away, 
+1 0
+1 2
+21 1 0
+2 1 1
+1 2
+0 1 0 Mark how the blood of Caesar follow'd it, 
+1 0
+2 0 0
+61 0
+6

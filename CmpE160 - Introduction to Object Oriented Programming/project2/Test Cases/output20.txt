@@ -1,0 +1,7 @@
+Warning! Server is 50% full.
+	From: 2 to: 1
+	Received: 11 Read: 27
+	Far away to Albany.
+	From: 0 to: 4
+	Received: 28 Read: 29
+	There came a dreadful storm,

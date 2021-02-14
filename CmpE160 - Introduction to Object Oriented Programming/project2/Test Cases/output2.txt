@@ -1,0 +1,6 @@
+Current load of the server is 7 characters.
+Current load of the server is 3 characters.
+Current load of the server is 0 characters.
+	From: 1 to: 0
+	Received: 9 Read: 16
+	a

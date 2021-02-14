@@ -1,0 +1,3 @@
+Warning! Server is 50% full.
+Warning! Server is 50% full.
+Server is full. Deleting all messages...

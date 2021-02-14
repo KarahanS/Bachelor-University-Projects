@@ -1,0 +1,13 @@
+Current load of the server is 23 characters.
+Current load of the server is 23 characters.
+Current load of the server is 12 characters.
+Current load of the server is 15 characters.
+	From: 0 to: 1
+	Received: 5 Read: 8
+	not friends
+Current load of the server is 12 characters.
+Current load of the server is 12 characters.
+Current load of the server is 0 characters.
+	From: 0 to: 1
+	Received: 11 Read: 17
+	hey

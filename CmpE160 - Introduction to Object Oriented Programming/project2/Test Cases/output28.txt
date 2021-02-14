@@ -1,0 +1,8 @@
+Current load of the server is 59 characters.
+Current load of the server is 51 characters.
+	From: 1 to: 0
+	Received: 16 Read: 19
+	off to
+	From: 0 to: 3
+	Received: 28 Read: 43
+	the Ethiopians,
