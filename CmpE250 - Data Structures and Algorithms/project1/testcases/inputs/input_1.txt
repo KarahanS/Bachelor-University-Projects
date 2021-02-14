@@ -1,0 +1,21 @@
+10
+Jeanette Hobbit 9 10 30
+Sylvia Men 11 6 84
+Connie Elves 8 5 69
+Juan Dwarfs 9 5 81
+Dorsey Wizards 9 4 71
+Herman Hobbit 10 10 28
+Georgia Men 11 5 55
+Scottie Elves 8 5 93
+Maxie Dwarfs 9 5 56
+Kay Wizards 8 5 52
+Sylvia Kay NO-SPECIAL
+Scottie Connie NO-SPECIAL
+Sylvia Herman NO-SPECIAL
+Maxie Juan NO-SPECIAL
+Sylvia Maxie NO-SPECIAL
+Maxie Jeanette NO-SPECIAL
+Sylvia Maxie NO-SPECIAL
+Maxie Jeanette NO-SPECIAL
+Juan Maxie NO-SPECIAL
+Kay Jeanette NO-SPECIAL

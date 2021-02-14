@@ -1,0 +1,91 @@
+80
+Roger Hobbit 9 10 21
+Russell Men 12 4 65
+Frederick Elves 9 6 98
+Laurie Dwarfs 9 5 63
+Kirby Wizards 8 6 74
+Eddie Hobbit 8 10 20
+Curtis Men 12 4 59
+Allie Elves 8 4 60
+Sidney Dwarfs 10 4 97
+Ellis Wizards 8 4 95
+Kirby Allie NO-SPECIAL
+Sidney Kirby NO-SPECIAL
+Russell Ellis NO-SPECIAL
+Ellis Russell NO-SPECIAL
+Frederick Eddie NO-SPECIAL
+Sidney Roger NO-SPECIAL
+Laurie Sidney NO-SPECIAL
+Sidney Kirby NO-SPECIAL
+Kirby Sidney NO-SPECIAL
+Ellis Frederick SPECIAL
+Russell Curtis NO-SPECIAL
+Sidney Kirby NO-SPECIAL
+Kirby Ellis NO-SPECIAL
+Ellis Laurie NO-SPECIAL
+Laurie Curtis NO-SPECIAL
+Sidney Laurie NO-SPECIAL
+Frederick Sidney NO-SPECIAL
+Ellis Russell NO-SPECIAL
+Frederick Eddie NO-SPECIAL
+Allie Russell NO-SPECIAL
+Roger Curtis NO-SPECIAL
+Curtis Frederick SPECIAL
+Laurie Allie NO-SPECIAL
+Allie Roger NO-SPECIAL
+Russell Allie NO-SPECIAL
+Curtis Roger SPECIAL
+Russell Ellis NO-SPECIAL
+Allie Frederick NO-SPECIAL
+Frederick Sidney SPECIAL
+Ellis Kirby NO-SPECIAL
+Kirby Curtis SPECIAL
+Eddie Roger NO-SPECIAL
+Laurie Allie NO-SPECIAL
+Curtis Laurie SPECIAL
+Frederick Curtis NO-SPECIAL
+Curtis Laurie NO-SPECIAL
+Frederick Ellis NO-SPECIAL
+Allie Roger NO-SPECIAL
+Laurie Sidney SPECIAL
+Sidney Roger NO-SPECIAL
+Russell Curtis SPECIAL
+Ellis Russell NO-SPECIAL
+Laurie Allie NO-SPECIAL
+Eddie Kirby NO-SPECIAL
+Laurie Sidney NO-SPECIAL
+Sidney Russell NO-SPECIAL
+Russell Sidney SPECIAL
+Curtis Frederick NO-SPECIAL
+Kirby Ellis NO-SPECIAL
+Ellis Russell NO-SPECIAL
+Kirby Curtis NO-SPECIAL
+Ellis Kirby NO-SPECIAL
+Kirby Curtis NO-SPECIAL
+Eddie Laurie NO-SPECIAL
+Roger Curtis NO-SPECIAL
+Sidney Laurie NO-SPECIAL
+Roger Ellis NO-SPECIAL
+Sidney Roger NO-SPECIAL
+Laurie Ellis NO-SPECIAL
+Sidney Frederick NO-SPECIAL
+Laurie Eddie NO-SPECIAL
+Curtis Roger NO-SPECIAL
+Frederick Curtis NO-SPECIAL
+Curtis Laurie NO-SPECIAL
+Roger Allie NO-SPECIAL
+Ellis Kirby NO-SPECIAL
+Kirby Curtis NO-SPECIAL
+Ellis Roger NO-SPECIAL
+Laurie Ellis NO-SPECIAL
+Allie Frederick NO-SPECIAL
+Russell Eddie NO-SPECIAL
+Curtis Frederick NO-SPECIAL
+Frederick Curtis NO-SPECIAL
+Curtis Roger NO-SPECIAL
+Laurie Eddie NO-SPECIAL
+Curtis Russell NO-SPECIAL
+Laurie Ellis NO-SPECIAL
+Eddie Laurie NO-SPECIAL
+Roger Curtis NO-SPECIAL
+Allie Frederick NO-SPECIAL

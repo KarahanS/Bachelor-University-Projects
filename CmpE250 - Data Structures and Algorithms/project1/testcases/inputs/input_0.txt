@@ -1,0 +1,16 @@
+5
+Lynn Hobbit 9 10 24
+Leigh Men 12 4 98
+Daryl Elves 8 5 70
+Blair Dwarfs 10 6 94
+Audie Wizards 10 6 83
+Carey Hobbit 8 10 29
+Jonnie Men 12 4 52
+Ivan Elves 8 6 92
+Loren Dwarfs 9 5 62
+Davis Wizards 8 6 94
+Audie Carey NO-SPECIAL
+Jonnie Audie NO-SPECIAL
+Audie Carey NO-SPECIAL
+Davis Daryl NO-SPECIAL
+Leigh Davis SPECIAL
