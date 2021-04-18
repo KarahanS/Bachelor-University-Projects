@@ -91,4 +91,6 @@ int findAncestor(int depth, int label, int lo, int hi, Graph& graph) {
 		}
 	} else { /* impossible */ }
 
+	return 0;
+
 }
