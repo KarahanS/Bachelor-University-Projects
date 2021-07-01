@@ -1,0 +1,21 @@
+<program> ::= <chunkList>
+<chunkList> ::= <chunk> <chunkList> | <chunk>
+
+<chunk> ::= <regChunk> | <ifChunk> | <whileChunk>
+<regChunk> ::= <statementList>
+<ifChunk> ::= "if(" <expr> "){\n" <statementList> "}\n"
+<whileChunk> ::= "while(" <expr> "){\n" <statementList> "}\n"
+
+<statementList> ::= <statement> <statementList> | <statement>
+<statement> ::= (<var> "=" <expr> | "print(" <expr> ")") "\n"
+
+<expr> ::= <term> "+" <expr>  |  <term> "-" <expr> | <term>
+
+<term> ::= <factor> "*" <term> | <factor> "/" <term> | <factor>
+
+<factor> ::= "(" <expr> ")" | <thing>
+
+<thing> ::= <num> | <var> | "choose(" <expr> "," <expr> "," <expr> "," <expr> ")"  
+
+<num> ::= [1-9]
+<var> ::= [A-G]

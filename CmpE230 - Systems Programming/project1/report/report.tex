@@ -1,0 +1,128 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+
+\usepackage{listings}
+\usepackage{xcolor}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{fullpage}
+\usepackage{graphicx}
+
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+
+\lstdefinestyle{mystyle}{
+    backgroundcolor=\color{backcolour},   
+    commentstyle=\color{codegreen},
+    keywordstyle=\color{magenta},
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{codepurple},
+    basicstyle=\ttfamily\footnotesize,
+    breakatwhitespace=false,         
+    breaklines=true,                 
+    captionpos=b,                    
+    keepspaces=true,                 
+    numbers=left,                    
+    numbersep=5pt,                  
+    showspaces=false,                
+    showstringspaces=false,
+    showtabs=false,                  
+    tabsize=2
+}
+\title{CMPE 230 - Project 1 Documentation}
+\author{Karahan Sarıtaş (2018400174) \\ Cahid Arda Öz (2019400132)}
+\lstset{style=mystyle}
+
+\begin{document}
+
+\maketitle
+
+\tableofcontents
+ 
+\section{Problem Statement}
+
+We are asked to develop a translator called mylang2IR which translates a language called MyLang. Our translator is expected to generate low-level LLVM IR code that will compute and output appropriate statements. We should also prepare a makefile that compiles our source code and generates the executable mylang2ir file.
+
+\section{Solution}
+We splitted the problem to two parts: Pasing the MyLang code and printing the LLVM code. To solve the first part of the problem, we start by reading all the lines from file.my, then we remove the whitespaces and comment blocks. \\
+We send these processed lines to the Parser object. Parser simply parses lines one by one.  It then utilizes its Writer object to write the LLVM IR code. \\
+The biggest problem in the project was parsing the expressions. Expressions include multiplication, addition, subtraction and division operations. In addition, there can also be parenthesis, and choose() functions in an expression. To overcome this obstacle, we eliminate choose() functions by replacing them with the temporary variable ids (\%t) to be used in LLVM. We then convert the expression from infix to postfix. This postfix is then used to print corresponding commands to LLVM code. \\
+
+\section{Implementation}
+Our implementation consists of two objects, namely Parser and Writer, and a main section. We keep our main section as small as possible and put the majority of the burden on Parser object. Parser has its own Writer object as a field. Writer is primarily used at the end of the Parser functions to store what is going to be printed out as a LLVM IR code.
+
+\subsection{Parser}
+Parser has different functions such as validateVariable(), validateNumber(), validateExpression(), syntaxError(), assignmentParser(), expressionParser(), replaceChoose() and read(). Apart from read() function, all functions are private and called inside the read(). 
+
+\begin{enumerate}
+    \item read(vector<string> lines) = It simply takes the lines of the file.my and examines them one by one. It divides them into categories like if, while blocks, print statements, assignment statements etc. It checks each line for certain syntax errors. It is responsible for the general flow of the code.
+    \item validateVariable(string var) = It takes a string and checks if it satisfies the conditions to be a variable. If it can be a variable, adds it to the set of variables so that we can print them out at the very beginning of our LLVM code.
+    \item validateNumber(string var) = It takes a string and checks if it satisfies the conditions to be a number. 
+    \item validateExpression(string expr, vector<string> tokens) = It performs necessary checks on the given expression to find out syntax errors. Along the procedure, it tokenizes them and adds them to a vector. expressionParser() utilizes this token vector. In fact, validateExpression() is only called within the expressionParser().
+    \item expressionParser(string expr) =  At first, by sending the expression to the validateExpression() function, it makes sure that the expression does not have any syntax error. Then using the tokens, prepared by the same function, it turns the whole expression from infix to postfix. Writer takes this postfix expression (vector) and prepares corresponding LLVM code.
+    \item assignmentParser(string line) = It divides the line into two parts, LHS and RHS. LHS must be a variable and RHS must be either an expression or a variable. assignmentParser() sends them to necessary validate functions and checks if there are any syntax errors. Then it sends RHS to expressionParser() to be processed.
+    \item replaceChoose(string expr) = This function is excessively used to get rid of choose() functions from the lines. With the help of writer, it stores corresponding LLVM IR code and then replaces choose() with temporary variable ID.
+    \item syntaxError() = When a syntax error is found, syntaxError() is called. It simply prints the number of the line, where syntax error has occurred.
+  \end{enumerate}
+
+\subsection{Writer}
+
+Writer object doesn't have much logic. It has a stringstream object and functions which are used to add lines of code to the stringstream object. Most of the functions are public since they are called by the Parser object. Writer also has counters for keeping track of the last instances of temporary variables and if/while bodies. As we parse lines of the input file, we store corresponding LLVM lines in a stringstream. After printing necessary allocate and store code for variables to the output file, remaining code in the stringstream is printed out.
+
+\begin{enumerate}
+    \item writeToFile(string moduleID, unordered\_set<string> variableSet) = Used to create the output file when the parsing of the input file is complete. It starts by declaring global @printf and @choose functions, @print.str and moduleID. Then we start printing the @main section. We allocate variables and set their values to 0. This is followed by the content of the stringstream object. We then end the program by returning zero.
+    \item writeErrorToFile(string moduleID, int line) = This function is called when the Parser detects a syntax error. It prints the LLVM code that prints the syntax error message.
+    \item print(string toWrite) = This function is used to add a @printf call to the stringstream object.
+    \item choose(string saveTo, vector<string> operands) = This function is used to add a @choose call to the stringstream object.
+    \item writeExpression(vector<string> postFix) = This function takes an expression in post-fix format and then calls functions to create the LLVM code corrosponding to the given post-fix.
+    \item arithmetic(string saveTo, string opcode, string operandOne, string operandTwo) = This function is used to add a arithmetic operations to the stringstream object.
+    \item brConditional(string condition, string blockOne, string blockTwo) = This function is used to add conditional branching points to the stringstream object.
+    \item brUnconditional(string block) = This function is used to add unconditional branching points to the stringstream object.
+    \item ret(string ret) = This function is used to add return commands to the stringstream object.
+    \item load(string loadTo, string loadFrom) = This function is used to add load commands to the stringstream object. It is used primarily used before expressions to load variables to temporary registers.
+    \item allocate(string varName) = Every variable in the program should be allocated in the beginning of the program. This function is used to add allocate commands to the stringstream object. 
+    \item store(string varName, string value) = We need to use the store command to set initial values of every variable to 0 and to store the results of computations in variables. This function is used to add store commands to the stringstream object. 
+    \item mountFile(string filePath) = This function is used open files.
+    \item dismountFile() = This function is used close files.
+    \item fileMounted() = This function is used to check whether a file is mounted.
+\end{enumerate}
+
+\section{Example}
+In this section, we will show how MyLang programs are converted to LLVM code with a couple examples
+
+\subsection{Example 1}
+\lstinputlisting[language=Octave]{example1.my}
+
+We start by reading every line and removing white spaces. In this example, this doesn't have any effect. We then look at line 0. We see that '-' character is present, which means that line 0 is an assignment statement. We call the assignmentParser and split this statement to two, left hand side (LHS) and right hand side (RHS). We check whether the LHS is an variable using the validateVariable() function. If so, we check whether the RHS is an expression using the validateExpression() function. By validating the RHS by parsing it, we also create the post-fix corrosponding to the RHS. We then use this post-fix to print the computations corresponding to RHS of line 0 by calling writeExpression(). We end the line 0 by storing the result to \%\_a which represents the variable a. Line 0 is completed and now we start looking at line 1. \\
+In line 1, we see that the print keyword is used. We then look at the expression inside the parentheses of the print statement. In this example, we only have a variable, so a is loaded to a temporary variable and a print call is added to print the new temporary variable. \\
+After parsing all lines, we then start printing the output file using the writeToFile() function. We define global variables and functions. Then print the content of the stringstream object to the main function and end the program. \\
+
+\subsection{Example 2}
+\lstinputlisting[language=Octave]{example2.my}
+
+Line 0 is parsed and processed just like the line 0 in example 1. In line 1, we see that the while keyword is used. To evaluate the expression inside the parentheses, we create a new branch called whcond1. Expression is then validated and converted to post-fix. This post-fix is converted to LLVM code via writeExpression() function and the results is saved to a temporary variable. We add a icmp call to create a one bit boolean value and use it in the conditional branch call. We either exit the while body (regbody1) or enter it (whbody1). \\
+To evaluate the inside of the while body, we process the lines just like we did in example 1 until we see a closing bracket ('\}'). We then leave the whbody1 by going back to whcond1. \\
+Program ends when the whcond1 returns false and program jumps to regbody1.\\
+
+\section{Testing}
+We wanted to create more testcases to test our code as we made changes to it. To do this we first prepared the following BNF code:
+
+\lstinputlisting[language=Octave]{BNF.txt}
+
+We then used this BNF code to generate test cases. While generating these testcases, we excluded the “/” operator from the language to avoid division by zero errors. Following is an example from our pool of testcases:
+
+\lstinputlisting[language=Octave]{../myCases/inputs/testcase12.my}
+
+\section{Conclusion}
+
+Looking at the testcases provided to us and created by us, we conclude that our program solves the given problem. There are some improvements that come to mind:
+
+\begin{enumerate}
+    \item We could have used a macro for determining whether any debug information gets printed to console instead of commenting out debugging lines.
+    \item We could have used a BNF oriented approach to parsing the MyLang codes.
+\end{enumerate}
+
+\end{document}
