@@ -29,6 +29,8 @@
 - [Project 5](https://github.com/KarahanS/University-Projects/tree/master/CmpE250%20-%20Data%20Structures%20and%20Algorithms/project5) `C++`
 
 ### [CmpE260 - Principles of Programming Languages](https://github.com/KarahanS/University-Projects/tree/master/CmpE260%20-%20Principles%20of%20Programming%20Languages)
+- [Project 1](https://github.com/KarahanS/University-Projects/tree/master/CmpE260%20-%20Principles%20of%20Programming%20Languages/project1) `Prolog`
+- [Project 2](https://github.com/KarahanS/University-Projects/tree/master/CmpE260%20-%20Principles%20of%20Programming%20Languages/project2) `Racket`
 
 ### [CmpE300 - Analysis of Algorithms](https://github.com/KarahanS/University-Projects/tree/master/CmpE300%20-%20Analysis%20of%20Algorithms)
 
