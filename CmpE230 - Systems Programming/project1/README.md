@@ -1,13 +1,6 @@
-# CmpE230 - Systems Programming
-
-Overview of compilers, interpreters, assemblers, linkers and loaders. Unix environment and system calls. Shell programming. Signals and exceptions. Localization and Unicode.
-Python and CGI programming. Assembly language programming. Introduction to multithreading. Introductory Graphical User Interface (GUI) programming.
-
-Projects given in this course could be implemented in groups of at most two students. My partner was [Cahid Arda Öz](https://github.com/cahidArda).
-
-| Term          | Instructor   |
-| ------------- |:-------------:|
-| 2021 Spring      | Can Özturan |   
-
-
-
+#### To run the program, you must have llvm binaries. You can download pre-built clang and llvm binaries from [here](https://releases.llvm.org/download.html#3.3). 
+```shell
+make
+./mylang2ir file.my
+lli file.lli
+```
