@@ -11,6 +11,9 @@
 - [Project 3](https://github.com/KarahanS/University-Projects/tree/master/CmpE160%20-%20Introduction%20to%20Object%20Oriented%20Programming/project3) `Java`
 
 ### [CmpE230 - Systems Programming](https://github.com/KarahanS/University-Projects/tree/master/CmpE230%20-%20Systems%20Programming)
+- [Project 1](https://github.com/KarahanS/University-Projects/tree/master/CmpE230%20-%20Systems%20Programming/project1) `C++`
+- [Project 2](https://github.com/KarahanS/University-Projects/tree/master/CmpE230%20-%20Systems%20Programming/project2) `Python`
+- [Project 3](https://github.com/KarahanS/University-Projects/tree/master/CmpE230%20-%20Systems%20Programming/project3) `Qt / C++`
 
 
 ### [CmpE240 - Digital Systems](https://github.com/KarahanS/University-Projects/tree/master/CmpE240%20-%20Digital%20Systems)
