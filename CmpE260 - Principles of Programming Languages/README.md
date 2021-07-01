@@ -4,7 +4,7 @@ This course is intended to introduce the student to the main paradigms of comput
 
 | Term          | Instructor   |
 | ------------- |:-------------:|
-| 2020 Fall        | Fatma Başak Aydemir |   
+| 2021 Fall        | Fatma Başak Aydemir |   
 
 
 
