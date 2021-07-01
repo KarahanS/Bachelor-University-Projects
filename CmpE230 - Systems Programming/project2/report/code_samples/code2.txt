@@ -1,0 +1,5 @@
+    PRINT ' '
+    PRINT '0'
+<operation> <operand>
+    JMP TEST11
+    LABEL11:

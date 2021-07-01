@@ -1,0 +1,8 @@
+    PRINT '@'
+    LOAD C
+    CMP 7F
+    JAE PRINT2
+    CMP 20
+    JB PRINT2
+PRINT A
+    PRINT2:

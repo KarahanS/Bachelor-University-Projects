@@ -1,0 +1,23 @@
+TEST11:
+    PRINT '#'
+    JZ JZ11
+        PRINT 'a'
+        JZ11:
+    JE JE11
+        PRINT 'b'
+        JE11:
+    JNZ JNZ11
+        PRINT 'c'
+        JNZ11:
+    ...
+    JAE JAE11
+        PRINT 'h'
+        JAE11:
+    JB JB11
+        PRINT 'i'
+        JB11:
+    JBE JBE11
+        PRINT 'j'
+        JBE11:
+    PRINT '#'
+JMP LABEL11
