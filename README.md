@@ -30,5 +30,8 @@
 
 ### [CmpE260 - Principles of Programming Languages](https://github.com/KarahanS/University-Projects/tree/master/CmpE260%20-%20Principles%20of%20Programming%20Languages)
 
+### [CmpE300 - Analysis of Algorithms](https://github.com/KarahanS/University-Projects/tree/master/CmpE300%20-%20Analysis%20of%20Algorithms)
+
+### [CmpE322 - Operating Systems](https://github.com/KarahanS/University-Projects/tree/master/CmpE322%20-%20Operating%20Systems)
 
 
