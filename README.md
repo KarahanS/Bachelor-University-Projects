@@ -17,6 +17,8 @@
 
 
 ### [CmpE240 - Digital Systems](https://github.com/KarahanS/University-Projects/tree/master/CmpE240%20-%20Digital%20Systems)
+- [Lab 1](https://github.com/KarahanS/University-Projects/tree/master/CmpE240%20-%20Digital%20Systems/lab1) `C++`
+- [Lab 2](https://github.com/KarahanS/University-Projects/tree/master/CmpE240%20-%20Digital%20Systems/lab2) `Python`
 
 
 ### [CmpE250 - Data Structures and Algorithms](https://github.com/KarahanS/University-Projects/tree/master/CmpE250%20-%20Data%20Structures%20and%20Algorithms)
