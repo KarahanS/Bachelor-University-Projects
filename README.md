@@ -17,10 +17,10 @@
 
 
 ### [CmpE240 - Digital Systems](https://github.com/KarahanS/University-Projects/tree/master/CmpE240%20-%20Digital%20Systems)
-- [Lab 1](https://github.com/KarahanS/University-Projects/tree/master/CmpE240%20-%20Digital%20Systems/lab1) `Verilog`
-- [Lab 2](https://github.com/KarahanS/University-Projects/tree/master/CmpE240%20-%20Digital%20Systems/lab2) `Verilog`
-- [Lab 3](https://github.com/KarahanS/University-Projects/tree/master/CmpE240%20-%20Digital%20Systems/lab3) `Verilog`
-- [Lab 4](https://github.com/KarahanS/University-Projects/tree/master/CmpE240%20-%20Digital%20Systems/lab4) `Verilog`
+- [Experiment 1](https://github.com/KarahanS/University-Projects/tree/master/CmpE240%20-%20Digital%20Systems/Experiment%201) `Verilog`
+- [Experiment 2](https://github.com/KarahanS/University-Projects/tree/master/CmpE240%20-%20Digital%20Systems/Experiment%202) `Verilog`
+- [Experiment 3](https://github.com/KarahanS/University-Projects/tree/master/CmpE240%20-%20Digital%20Systems/Experiment%203) `Verilog`
+- [Experiment 4](https://github.com/KarahanS/University-Projects/tree/master/CmpE240%20-%20Digital%20Systems/Experiment%204) `Verilog`
 
 
 ### [CmpE250 - Data Structures and Algorithms](https://github.com/KarahanS/University-Projects/tree/master/CmpE250%20-%20Data%20Structures%20and%20Algorithms)
