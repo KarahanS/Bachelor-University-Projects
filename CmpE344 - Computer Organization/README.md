@@ -1,9 +1,9 @@
-# CmpE322 - Operating Systems
+# CmpE344 - Computer Organization
 
-Evolution of operating systems. Multiprogramming and time sharing concepts. User and program interfaces. Concurrent processes, CPU scheduling, process synchronization, critical section problem. Deadlock prevention, avoidance, detection and recovery. Memory management, swapping, multiple partitions. Paging, segmentation, virtual memory, page replacement algorithms. File system structures, allocation methods, directory implementation. I/O interfaces, secondary storage structure. Protection and Security: Access matrix and rights, capabilities, security issues. LINUX case studies.
+Register transfer level design. Basic computer layout. Instruction sets and their implementation. Addressing techniques. ALU, hardwired and microprogrammed controllers. Memory unit. I/0 structures and interrupt handling. Improvements on von Neumann machine. Bus structures. Assembly programming.
 
 | Term          | Instructor   |
 | ------------- |:-------------:|
-| 2021 Fall       | Tuna Tuğcu |   
+| 2021 Fall       | Lale Akarun |   
 
 
