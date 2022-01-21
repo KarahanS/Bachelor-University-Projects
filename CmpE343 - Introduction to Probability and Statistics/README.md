@@ -1,9 +1,9 @@
-# CmpE322 - Operating Systems
+# CmpE343 - Introduction to Probability and Statistics
 
-Evolution of operating systems. Multiprogramming and time sharing concepts. User and program interfaces. Concurrent processes, CPU scheduling, process synchronization, critical section problem. Deadlock prevention, avoidance, detection and recovery. Memory management, swapping, multiple partitions. Paging, segmentation, virtual memory, page replacement algorithms. File system structures, allocation methods, directory implementation. I/O interfaces, secondary storage structure. Protection and Security: Access matrix and rights, capabilities, security issues. LINUX case studies.
+Introduction to probability theory. Random variables, expectation, variance and moment generating functions. Distributions: Bernoulli, binomial, uniform, Gaussian, exponential, Poisson, gamma. Introduction to statistical concepts. Sampling and sample statistics. Point and interval estimation. Hypothesis testing. Regression. Numerical and computational aspects of random variable generation, sampling, and estimation.
 
 | Term          | Instructor   |
 | ------------- |:-------------:|
-| 2021 Fall       | Tuna Tuğcu |   
+| 2021 Fall       | İnci Meliha Baytaş |   
 
 
