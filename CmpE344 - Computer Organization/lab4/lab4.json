@@ -1,0 +1,67 @@
+{
+	"group_id": "FF67_16",
+	"cpu" : {
+		"mhz": "800",
+		"mhz_max": "3100",
+		"mhz_min": "400",
+		"model_name": "Intel Core i5 8265U"
+	},
+	"compiler": {
+		"name": "gcc",
+		"version": "9.3.0",
+		"target": "x86_64"
+	},
+	"experiments": [
+		{
+			"file": "src/matmul.py",	
+			"language" : "python",
+			"version" : "3.8.10",
+			"execution_time_in_seconds": 95.897
+		},
+		{
+			"file": "src/matmul.c",	
+			"language" : "c",
+			"execution_time_in_seconds": 0.667
+		},
+		{
+			"file": "src/matmul.opt.c",	
+			"language" : "c",
+			"execution_time_in_seconds": 0.282
+		},
+		{
+			"file": "src/matmul.opt.unroll.c",	
+			"language" : "c",
+			"execution_time_in_seconds": 0.225
+		},
+		{
+			"file": "src/matmul.asm.O0.c",	
+			"language" : "c",
+			"asm_compiler": "x86-64 gcc 9.3",
+			"execution_time_in_seconds": 0.792
+		},
+		{
+			"file": "src/matmul.asm.O1.c",	
+			"language" : "c",
+			"asm_compiler": "x86-64 gcc 9.3",
+			"execution_time_in_seconds": 0.377
+		},
+		{
+			"file": "src/matmul.asm.O2.c",	
+			"language" : "c",
+			"asm_compiler": "x86-64 gcc 9.3",
+			"execution_time_in_seconds": 0.341
+		},
+		{
+			"file": "src/matmul.asm.O3.c",	
+			"language" : "c",
+			"asm_compiler": "x86-64 gcc 9.3",
+			"execution_time_in_seconds": 0.336
+		},
+		{
+			"file": "src/matmul.asm.Os.c",	
+			"language" : "c",
+			"asm_compiler": "x86-64 gcc 9.3",
+			"execution_time_in_seconds": 0.310
+		}
+	]
+}
