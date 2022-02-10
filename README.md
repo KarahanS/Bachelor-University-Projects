@@ -35,7 +35,31 @@
 - [Project 2](https://github.com/KarahanS/University-Projects/tree/master/CmpE260%20-%20Principles%20of%20Programming%20Languages/project2) `Racket`
 
 ### [CmpE300 - Analysis of Algorithms](https://github.com/KarahanS/University-Projects/tree/master/CmpE300%20-%20Analysis%20of%20Algorithms)
+- [Project 1](https://github.com/KarahanS/University-Projects/tree/master/CmpE300%20-%20Analysis%20of%20Algorithms/project1) `Python`
+- [Project 2](https://github.com/KarahanS/University-Projects/tree/master/CmpE300%20-%20Analysis%20of%20Algorithms/project2) `Python / MPI`
+- [Project 3](https://github.com/KarahanS/University-Projects/tree/master/CmpE300%20-%20Analysis%20of%20Algorithms/project3) `Python`
 
 ### [CmpE322 - Operating Systems](https://github.com/KarahanS/University-Projects/tree/master/CmpE322%20-%20Operating%20Systems)
+- [Project 1](https://github.com/KarahanS/University-Projects/tree/master/CmpE322%20-%20Operating%20Systems/project1) `C++`
+- [Project 2](https://github.com/KarahanS/University-Projects/tree/master/CmpE322%20-%20Operating%20Systems/project2) `C++`
+
+### [CmpE343 - Introduction to Probability and Statistics](https://github.com/KarahanS/University-Projects/tree/master/CmpE343%20-%20Introduction%20to%20Probability%20and%20Statistics)
+- [Assignment 1](https://github.com/KarahanS/University-Projects/tree/master/CmpE343%20-%20Introduction%20to%20Probability%20and%20Statistics/assignment1) `Python`
+- [Assignment 2](https://github.com/KarahanS/University-Projects/tree/master/CmpE343%20-%20Introduction%20to%20Probability%20and%20Statistics/assignment2) `Python`
+
+### [CmpE344 - Computer Organization](https://github.com/KarahanS/University-Projects/tree/master/CmpE344%20-%20Computer%20Organization)
+- [Lab 1](https://github.com/KarahanS/University-Projects/tree/master/CmpE344%20-%20Computer%20Organization/lab1) `MIPS`
+- [Lab 2](https://github.com/KarahanS/University-Projects/tree/master/CmpE344%20-%20Computer%20Organization/lab2) `MIPS`
+- [Lab 3](https://github.com/KarahanS/University-Projects/tree/master/CmpE344%20-%20Computer%20Organization/lab3) `MIPS`
+- [Lab 4](https://github.com/KarahanS/University-Projects/tree/master/CmpE344%20-%20Computer%20Organization/lab4) `C / Python`
+- [Lab 5](https://github.com/KarahanS/University-Projects/tree/master/CmpE344%20-%20Computer%20Organization/lab5)
+- [Lab 6](https://github.com/KarahanS/University-Projects/tree/master/CmpE344%20-%20Computer%20Organization/lab6)
+- [Lab 7](https://github.com/KarahanS/University-Projects/tree/master/CmpE344%20-%20Computer%20Organization/lab7) `C`
+
+### [IE310 - Operations Research](https://github.com/KarahanS/University-Projects/tree/master/IE%20310%20-%20Operations%20Research)
+- [Assignment 1](https://github.com/KarahanS/University-Projects/tree/master/IE%20310%20-%20Operations%20Research/assignment1) `Python`
+- [Assignment 2](https://github.com/KarahanS/University-Projects/tree/master/IE%20310%20-%20Operations%20Research/assignment2) `Python`
+- [Assignment 3](https://github.com/KarahanS/University-Projects/tree/master/IE%20310%20-%20Operations%20Research/assignment3) `Python`
+- [Assignment 4](https://github.com/KarahanS/University-Projects/tree/master/IE%20310%20-%20Operations%20Research/assignment4) `Python`
 
 
