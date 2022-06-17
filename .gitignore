@@ -1,0 +1,16 @@
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# ignore cache file
+__pycache__
+# Ignore files related to API keys
+.env
+# Ignore IDE specific directories
+.vscode
+.idea
