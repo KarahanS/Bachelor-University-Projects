@@ -22,4 +22,4 @@ flask run
 6) You can test the application by using the website running on ```http://127.0.0.1:5000/```.
 
 
-You can change the authentication credentials for your database using [db_config.json]().
+You can change the authentication credentials for your database using [db_config.json](https://github.com/KarahanS/University-Projects/blob/master/CmpE321%20-%20Introduction%20to%20Database%20Systems/project3/app/db_config.json).
