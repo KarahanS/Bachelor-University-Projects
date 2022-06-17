@@ -1,2 +1,2 @@
 #### In this project, we are expected to design a database system for the given scenario. In the next project, we are expected to develop a web application using this database. 
-You can test our database using [createTables.sql](), [dropTables.sql]() and [testQuery.sql](). 
+You can test our database using [createTables.sql](https://github.com/KarahanS/University-Projects/blob/master/CmpE321%20-%20Introduction%20to%20Database%20Systems/project2/createTables.sql), [dropTables.sql](https://github.com/KarahanS/University-Projects/blob/master/CmpE321%20-%20Introduction%20to%20Database%20Systems/project2/dropTables.sql) and [testQuery.sql](https://github.com/KarahanS/University-Projects/blob/master/CmpE321%20-%20Introduction%20to%20Database%20Systems/project2/testQuery.sql). 
