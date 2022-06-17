@@ -41,10 +41,10 @@
 
 
 ### [CmpE321 - Introduction to Database Systems]()
-- [Project 1]() `MySQL`
-- [Project 2]() `MySQL`
-- [Project 3]() `Python`
-- [Project 4]() `Python`
+- [Project 1](https://github.com/KarahanS/University-Projects/tree/master/CmpE321%20-%20Introduction%20to%20Database%20Systems/project1) `MySQL`
+- [Project 2](https://github.com/KarahanS/University-Projects/tree/master/CmpE321%20-%20Introduction%20to%20Database%20Systems/project2) `MySQL`
+- [Project 3](https://github.com/KarahanS/University-Projects/tree/master/CmpE321%20-%20Introduction%20to%20Database%20Systems/project3) `Python`
+- [Project 4](https://github.com/KarahanS/University-Projects/tree/master/CmpE321%20-%20Introduction%20to%20Database%20Systems/project4) `Python`
 
 ### [CmpE322 - Operating Systems](https://github.com/KarahanS/University-Projects/tree/master/CmpE322%20-%20Operating%20Systems)
 - [Project 1](https://github.com/KarahanS/University-Projects/tree/master/CmpE322%20-%20Operating%20Systems/project1) `C++`
@@ -65,9 +65,9 @@
 
 
 ### [IE306 - Systems Simulation]()
-- [Assignment 1]() `Python`
-- [Assignment 2]()
-- [Assignment 3]() `ARENA`
+- [Assignment 1](https://github.com/KarahanS/University-Projects/tree/master/IE%20306%20-%20Systems%20Simulation/assignment1) `Python`
+- [Assignment 2](https://github.com/KarahanS/University-Projects/tree/master/IE%20306%20-%20Systems%20Simulation/assignment2)
+- [Assignment 3](https://github.com/KarahanS/University-Projects/tree/master/IE%20306%20-%20Systems%20Simulation/assignment3) `ARENA`
 
 ### [IE310 - Operations Research](https://github.com/KarahanS/University-Projects/tree/master/IE%20310%20-%20Operations%20Research)
 - [Assignment 1](https://github.com/KarahanS/University-Projects/tree/master/IE%20310%20-%20Operations%20Research/assignment1) `Python`
