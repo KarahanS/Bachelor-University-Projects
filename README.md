@@ -39,6 +39,13 @@
 - [Project 2](https://github.com/KarahanS/University-Projects/tree/master/CmpE300%20-%20Analysis%20of%20Algorithms/project2) `Python / MPI`
 - [Project 3](https://github.com/KarahanS/University-Projects/tree/master/CmpE300%20-%20Analysis%20of%20Algorithms/project3) `Python`
 
+
+### [CmpE321 - Introduction to Database Systems]()
+- [Project 1]() `MySQL`
+- [Project 2]() `MySQL`
+- [Project 3]() `Python`
+- [Project 4]() `Python`
+
 ### [CmpE322 - Operating Systems](https://github.com/KarahanS/University-Projects/tree/master/CmpE322%20-%20Operating%20Systems)
 - [Project 1](https://github.com/KarahanS/University-Projects/tree/master/CmpE322%20-%20Operating%20Systems/project1) `C++`
 - [Project 2](https://github.com/KarahanS/University-Projects/tree/master/CmpE322%20-%20Operating%20Systems/project2) `C++`
@@ -56,10 +63,18 @@
 - [Lab 6](https://github.com/KarahanS/University-Projects/tree/master/CmpE344%20-%20Computer%20Organization/lab6)
 - [Lab 7](https://github.com/KarahanS/University-Projects/tree/master/CmpE344%20-%20Computer%20Organization/lab7) `C`
 
+
+### [IE306 - Systems Simulation]()
+- [Assignment 1]() `Python`
+- [Assignment 2]()
+- [Assignment 3]() `ARENA`
+
 ### [IE310 - Operations Research](https://github.com/KarahanS/University-Projects/tree/master/IE%20310%20-%20Operations%20Research)
 - [Assignment 1](https://github.com/KarahanS/University-Projects/tree/master/IE%20310%20-%20Operations%20Research/assignment1) `Python`
 - [Assignment 2](https://github.com/KarahanS/University-Projects/tree/master/IE%20310%20-%20Operations%20Research/assignment2) `Python`
 - [Assignment 3](https://github.com/KarahanS/University-Projects/tree/master/IE%20310%20-%20Operations%20Research/assignment3) `Python`
 - [Assignment 4](https://github.com/KarahanS/University-Projects/tree/master/IE%20310%20-%20Operations%20Research/assignment4) `Python`
+
+### [CmpE 352 - Fundamentals of Software Engineering - Group 8](https://github.com/bounswe/bounswe2022group8)
 
 

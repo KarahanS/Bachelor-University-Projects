@@ -1,0 +1,92 @@
+{% extends "panel_base.html" %}
+
+{% block title %}Admin Panel{% endblock %}
+
+{% block content %}
+
+<h2>Add User (R2)</h2>
+
+<h3>Add Student</h3>
+
+<form action="/api/AdminHandler" method="post">
+    <input type="text" name="username" placeholder="Username">
+    <input type="text" name="password" placeholder="Password">
+    <input type="text" name="name" placeholder="Name">
+    <input type="text" name="surname" placeholder="Surname">
+    <input type="text" name="email" placeholder="Email">
+    <input type="text" name="department_id" placeholder="Department ID">
+    <input type="text" name="student_id" placeholder="Student ID">
+    <input type="submit" name='formType' value="Add Student">
+</form>
+
+<h3>Add Instructor</h3>
+
+<form action="/api/AdminHandler" method="post">
+    <input type="text" name="username" placeholder="Username">
+    <input type="text" name="password" placeholder="Password">
+    <input type="text" name="name" placeholder="Name">
+    <input type="text" name="surname" placeholder="Surname">
+    <input type="text" name="email" placeholder="Email">
+    <input type="text" name="department_id" placeholder="Department ID">
+    <select name="title">
+        <option value="Assistant Professor">Assistant Professor</option>
+        <option value="Associate Professor">Associate Professor</option>
+        <option value="Professor">Professor</option>
+    </select>
+    <input type="submit" name='formType' value="Add Instructor">
+</form>
+
+<h2>Delete Student (R3)</h2>
+
+<form action="/api/AdminHandler" method="post">
+    <input type="text" name="student_id" placeholder="Student ID">
+    <input type="submit" name='formType' value="Delete Student">
+</form>
+
+<h2>Update Title (R4)</h2>
+
+<form action="/api/AdminHandler" method="post">
+    <input type="text" name="username" placeholder="Instructor Username">
+    <select name="title">
+        <option value="Assistant Professor">Assistant Professor</option>
+        <option value="Associate Professor">Associate Professor</option>
+        <option value="Professor">Professor</option>
+    </select>
+    <input type="submit" name='formType' value="Update Title">
+</form>
+
+<h2>View All Students (R5)</h2>
+
+<form action="/api/AdminHandler" method="post">
+    <input type="submit" name='formType' value="View All Students">
+</form>
+
+<h2>View All Instructors (R6)</h2>
+
+<form action="/api/AdminHandler" method="post">
+    <input type="submit" name='formType' value="View All Instructors">
+</form>
+
+<h2>View Student Grades (R7)</h2>
+
+<form action="/api/AdminHandler" method="post">
+    <input type="text" name="student_id" placeholder="Student ID">
+    <input type="submit" name='formType' value="View Student Grades">
+</form>
+
+<h2>View Courses of Instructor (R8)</h2>
+
+<form action="/api/AdminHandler" method="post">
+    <input type="text" name="instructor_id" placeholder="Instructor Username">
+    <input type="submit" name='formType' value="View Courses of Instructor">
+</form>
+
+<h2>View Course Grade Average (R9)</h2>
+
+<form action="/api/AdminHandler" method="post">
+    <input type="text" name="course_id" placeholder="Course ID">
+    <input type="submit" name='formType' value="View Course Grade Average">
+</form>
+
+
+{% endblock %}

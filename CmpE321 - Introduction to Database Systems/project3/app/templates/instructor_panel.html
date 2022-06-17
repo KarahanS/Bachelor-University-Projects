@@ -1,0 +1,67 @@
+{% extends "panel_base.html" %}
+
+{% block title %}Instructor Panel{% endblock %}
+
+{% block content %}
+<h2>View All Classrooms (R11)</h2>
+
+<form action="/api/InstructorHandler" method="post">
+    <input type="number" step="1" name="time_slot" min="1" max="10" placeholder="Time Slot">
+    <input type="submit" name='formType' value="View All Classrooms">
+</form>
+
+
+<h2>Add Course (R12)</h2>
+
+<form action="/api/InstructorHandler" method="post">
+    <input type="text" name="course_id" placeholder="Course ID">
+    <input type="text" name="name" placeholder="Name">
+    <input type="number" step="0.5" name="credits" placeholder="Credits">
+    <input type="text" name="classroom_id" placeholder="Classroom ID">
+    <input type="number" step="1" name="time_slot" min="1" max="10" placeholder="Time Slot">
+    <input type="number" step="1" name="quota" min = "1" placeholder="Quota">
+    <input type="submit" name='formType' value="Add Course">
+</form>
+
+<h2>Add Prerequisite (R13)</h2>
+
+<form action="/api/InstructorHandler" method="post">
+    <input type="text" name="successor_id" placeholder="Successor Course ID">
+    <input type="text" name="prerequisite_id" placeholder="Prerequisite Course ID">
+    <input type="submit" name='formType' value="Add Prerequisite">
+</form>
+
+
+<h2>View Your Courses (R14)</h2>
+
+<form action="/api/InstructorHandler" method="post">
+    <input type="submit" name='formType' value="View Your Courses">
+</form>
+
+
+<h2>View Your Students by Course (R15)</h2>
+
+<form action="/api/InstructorHandler" method="post">
+    <input type="text" name="course_id" placeholder="Course ID">
+    <input type="submit" name='formType' value="View Your Students by Course">
+</form>
+
+<h2>Update Course Name (R16)</h2>
+
+<form action="/api/InstructorHandler" method="post">
+    <input type="text" name="course_id" placeholder="Course ID">
+    <input type="text" name="new_course_name" placeholder="New Course Name">
+    <input type="submit" name='formType' value="Update Course Name">
+</form>
+
+<h2>Grade a Student (R17)</h2>
+
+<form action="/api/InstructorHandler" method="post">
+    <input type="text" name="course_id" placeholder="Course ID">
+    <input type="text" name="student_id" placeholder="Student ID">
+    <input type="number" name="grade" step = "0.00001" placeholder="Grade">
+    <input type="submit" name='formType' value="Grade a Student">
+</form>
+
+
+{% endblock %}

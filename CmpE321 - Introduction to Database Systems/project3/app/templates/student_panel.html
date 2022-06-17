@@ -1,0 +1,45 @@
+{% extends "panel_base.html" %}
+
+{% block title %}Student Panel{% endblock %}
+
+{% block content %}
+<h2>View All Given Courses (R18)</h2>
+
+<form action="/api/StudentHandler" method="post">
+    <input type="submit" name='formType' value="View All Given Courses">
+</form>
+
+
+<h2>Take a Course (R19)</h2>
+
+<form action="/api/StudentHandler" method="post">
+    <input type="text" name="course_id" placeholder="Course ID">
+    <input type="submit" name='formType' value="Take a Course">
+</form>
+
+<h2>View All Completed or Currently Enrolled Courses (R20)</h2>
+
+<form action="/api/StudentHandler" method="post">
+    <input type="submit" name='formType' value="View All Completed or Currently Enrolled Courses">
+</form>
+
+
+<h2>View Courses with a Keyword (R21)</h2>
+
+<form action="/api/StudentHandler" method="post">
+    <input type="text" name="keyword" placeholder="Keyword">
+    <input type="submit" name='formType' value="View Courses with a Keyword">
+</form>
+
+<h2>Filter Course (R22)</h2>
+
+<form action="/api/StudentHandler" method="post">
+    <input type="text" name="department_id" placeholder="Department ID">
+    <input type="text" name="campus" placeholder="Campus">
+    <input type="number" step="1" name="credits #1" placeholder="Credits #1">
+    <input type="number" step="1" name="credits #2" placeholder="Credits #2">
+    <input type="submit" name='formType' value="View Filtered Courses">
+</form>
+
+
+{% endblock %}
