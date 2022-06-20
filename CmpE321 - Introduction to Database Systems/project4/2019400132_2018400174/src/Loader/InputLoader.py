@@ -23,4 +23,4 @@ class InputLoader:
         """
         for line in self.lines:
             tokens = list(filter(lambda s: len(s)>0, map(lambda s: s.strip(), line.split(" "))))
-            yield tokens, line.replace("\n", "")
+            if(tokens): yield tokens, line.replace("\n", "")
