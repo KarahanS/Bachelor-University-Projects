@@ -1,5 +1,7 @@
 # Boğaziçi University CmpE Projects
 
+#### If you found this repository useful, please consider giving it a star to show your support and help others find it more easily. ####
+
 ### [CmpE150 - Introduction to Computing](https://github.com/KarahanS/University-Projects/tree/master/CmpE150%20-%20Introduction%20to%20Computing)
 - [Project 1](https://github.com/KarahanS/University-Projects/tree/master/CmpE150%20-%20Introduction%20to%20Computing/project1) `Java`
 - [Project 2](https://github.com/KarahanS/University-Projects/tree/master/CmpE150%20-%20Introduction%20to%20Computing/project2) `Java`
@@ -64,7 +66,7 @@
 - [Lab 7](https://github.com/KarahanS/University-Projects/tree/master/CmpE344%20-%20Computer%20Organization/lab7) `C`
 
 
-### [IE306 - Systems Simulation]()
+### [IE306 - Systems Simulation](https://github.com/KarahanS/University-Projects/tree/master/IE%20306%20-%20Systems%20Simulation)
 - [Assignment 1](https://github.com/KarahanS/University-Projects/tree/master/IE%20306%20-%20Systems%20Simulation/assignment1) `Python`
 - [Assignment 2](https://github.com/KarahanS/University-Projects/tree/master/IE%20306%20-%20Systems%20Simulation/assignment2)
 - [Assignment 3](https://github.com/KarahanS/University-Projects/tree/master/IE%20306%20-%20Systems%20Simulation/assignment3) `ARENA`
@@ -75,6 +77,6 @@
 - [Assignment 3](https://github.com/KarahanS/University-Projects/tree/master/IE%20310%20-%20Operations%20Research/assignment3) `Python`
 - [Assignment 4](https://github.com/KarahanS/University-Projects/tree/master/IE%20310%20-%20Operations%20Research/assignment4) `Python`
 
-### [CmpE 352 - Fundamentals of Software Engineering - Group 8](https://github.com/bounswe/bounswe2022group8)
+### [CmpE 352/451 - Project Development in Software Engineering - Group 8](https://github.com/bounswe/bounswe2022group8)
 
 
