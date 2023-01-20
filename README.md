@@ -38,7 +38,7 @@
 
 ### [CmpE300 - Analysis of Algorithms](https://github.com/KarahanS/University-Projects/tree/master/CmpE300%20-%20Analysis%20of%20Algorithms)
 - [Project 1](https://github.com/KarahanS/University-Projects/tree/master/CmpE300%20-%20Analysis%20of%20Algorithms/project1) `Python`
-- [Project 2](https://github.com/KarahanS/University-Projects/tree/master/CmpE300%20-%20Analysis%20of%20Algorithms/project2) `Python / MPI`
+- [Project 2](https://github.com/KarahanS/University-Projects/tree/master/CmpE300%20-%20Analysis%20of%20Algorithms/project2) `Python`
 - [Project 3](https://github.com/KarahanS/University-Projects/tree/master/CmpE300%20-%20Analysis%20of%20Algorithms/project3) `Python`
 
 
@@ -65,6 +65,14 @@
 - [Lab 6](https://github.com/KarahanS/University-Projects/tree/master/CmpE344%20-%20Computer%20Organization/lab6)
 - [Lab 7](https://github.com/KarahanS/University-Projects/tree/master/CmpE344%20-%20Computer%20Organization/lab7) `C`
 
+### [CmpE478 - Parallel Processing](https://github.com/KarahanS/University-Projects/tree/master/CmpE478%20-%20Parallel%20Processing)
+- [Project 1](https://github.com/KarahanS/University-Projects/tree/master/CmpE478%20-%20Parallel%20Processing/project1) `C++`
+- [Project 2](https://github.com/KarahanS/University-Projects/tree/master/CmpE478%20-%20Parallel%20Processing/project2) `C++ / Python`
+
+### [CmpE480 - Introduction to Artificial Intelligence](https://github.com/KarahanS/University-Projects/tree/master/CmpE480%20-%20Introduction%20to%20Artificial%20Intelligence) 
+- [Project 1](https://github.com/KarahanS/University-Projects/tree/master/CmpE480%20-%20Introduction%20to%20Artificial%20Intelligence/project1) `Python`
+- [Project 2](https://github.com/KarahanS/University-Projects/tree/master/CmpE480%20-%20Introduction%20to%20Artificial%20Intelligence/project2) `Prolog`
+- [Project 3](https://github.com/KarahanS/University-Projects/tree/master/CmpE480%20-%20Introduction%20to%20Artificial%20Intelligence/project3) `Python`
 
 ### [IE306 - Systems Simulation](https://github.com/KarahanS/University-Projects/tree/master/IE%20306%20-%20Systems%20Simulation)
 - [Assignment 1](https://github.com/KarahanS/University-Projects/tree/master/IE%20306%20-%20Systems%20Simulation/assignment1) `Python`
