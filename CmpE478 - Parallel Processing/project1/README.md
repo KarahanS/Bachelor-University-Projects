@@ -1,0 +1,4 @@
+## How to Run?
+* In order to run the code, you have to have `graph.txt` file in the same folder. Please download the graph from [here](https://web.archive.org/web/20220310125510/http://web-graph.org/index.php/download). Change its name if necessary and place it inside this workspace.
+* You can run `erdos.cpp` using the makefile provided in the folder. It is configured for both Windows and Mac, however some of the folders for Mac might be different - so you may need to update them.
+* We also provided a small python script to validate our results. It calculates the pageranks of the hosts using `networkx` module. You'll need to install `networkx`, `numpy` and `scipy` to run it. It will output the names of the first 5 hosts that have the highest rankings - which complies with our results.
