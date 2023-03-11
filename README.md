@@ -65,6 +65,8 @@
 - [Lab 6](https://github.com/KarahanS/University-Projects/tree/master/CmpE344%20-%20Computer%20Organization/lab6)
 - [Lab 7](https://github.com/KarahanS/University-Projects/tree/master/CmpE344%20-%20Computer%20Organization/lab7) `C`
 
+### [CmpE443 - Principles of Embedded System Design]()
+
 ### [CmpE478 - Parallel Processing](https://github.com/KarahanS/University-Projects/tree/master/CmpE478%20-%20Parallel%20Processing)
 - [Project 1](https://github.com/KarahanS/University-Projects/tree/master/CmpE478%20-%20Parallel%20Processing/project1) `C++`
 - [Project 2](https://github.com/KarahanS/University-Projects/tree/master/CmpE478%20-%20Parallel%20Processing/project2) `C++ / Python`
