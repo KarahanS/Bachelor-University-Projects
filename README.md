@@ -1,6 +1,6 @@
 # Boğaziçi University CmpE Projects
 
-#### If you found this repository useful, please consider giving it a star to show your support. Thanks! ####
+#### :star: If you found this repository useful, please consider giving it a star to show your support. Thanks! ####
 
 ### [CmpE150 - Introduction to Computing](https://github.com/KarahanS/University-Projects/tree/master/CmpE150%20-%20Introduction%20to%20Computing)
 - [Project 1](https://github.com/KarahanS/University-Projects/tree/master/CmpE150%20-%20Introduction%20to%20Computing/project1) `Java`
