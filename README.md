@@ -65,22 +65,21 @@
 - [Lab 6](https://github.com/KarahanS/University-Projects/tree/master/CmpE344%20-%20Computer%20Organization/lab6)
 - [Lab 7](https://github.com/KarahanS/University-Projects/tree/master/CmpE344%20-%20Computer%20Organization/lab7) `C`
 
-### [CmpE462 - Machine Learning]()
-- [Assignment 1]()
-- [Assignment 2]()
-- [Assignment 3]()
+### [CmpE462 - Machine Learning](https://github.com/KarahanS/University-Projects/tree/master/CmpE462%20-%20Machine%20Learning)
+- [Assignment 1](https://github.com/KarahanS/University-Projects/tree/master/CmpE462%20-%20Machine%20Learning/assignment1) `Python`
+- [Assignment 2](https://github.com/KarahanS/University-Projects/tree/master/CmpE462%20-%20Machine%20Learning/assignment2) `Python`
 
-### [CmpE443 - Principles of Embedded System Design]()
-- [Prelab 1]()
-- [Prelab 2]()
-- [Prelab 3]()
-- [Prelab 4]()
-- [Prelab 5]()
-- [Prelab 6]()
-- [Prelab 7]()
-- [Prelab 8]()
-- [Prelab 9]()
-- [Prelab 10]()
+### [CmpE443 - Principles of Embedded System Design](https://github.com/KarahanS/University-Projects/tree/master/CmpE443%20-%20Principles%20of%20Embedded%20Systems%20Design)
+- [Prelab 1](https://github.com/KarahanS/University-Projects/tree/master/CmpE443%20-%20Principles%20of%20Embedded%20Systems%20Design/prelab1) `C`
+- [Prelab 2](https://github.com/KarahanS/University-Projects/tree/master/CmpE443%20-%20Principles%20of%20Embedded%20Systems%20Design/prelab2) `C`
+- [Prelab 3](https://github.com/KarahanS/University-Projects/tree/master/CmpE443%20-%20Principles%20of%20Embedded%20Systems%20Design/prelab3) `C`
+- [Prelab 4](https://github.com/KarahanS/University-Projects/tree/master/CmpE443%20-%20Principles%20of%20Embedded%20Systems%20Design/prelab4) `C`
+- [Prelab 5](https://github.com/KarahanS/University-Projects/tree/master/CmpE443%20-%20Principles%20of%20Embedded%20Systems%20Design/prelab5) `C`
+- [Prelab 6](https://github.com/KarahanS/University-Projects/tree/master/CmpE443%20-%20Principles%20of%20Embedded%20Systems%20Design/prelab6) `C`
+- [Prelab 7](https://github.com/KarahanS/University-Projects/tree/master/CmpE443%20-%20Principles%20of%20Embedded%20Systems%20Design/prelab7) `C`
+- [Prelab 8](https://github.com/KarahanS/University-Projects/tree/master/CmpE443%20-%20Principles%20of%20Embedded%20Systems%20Design/prelab8) `C`
+- [Prelab 9](https://github.com/KarahanS/University-Projects/tree/master/CmpE443%20-%20Principles%20of%20Embedded%20Systems%20Design/prelab9) `C`
+- [Prelab 10](https://github.com/KarahanS/University-Projects/tree/master/CmpE443%20-%20Principles%20of%20Embedded%20Systems%20Design/prelab10) `C`
 
 ### [CmpE478 - Parallel Processing](https://github.com/KarahanS/University-Projects/tree/master/CmpE478%20-%20Parallel%20Processing)
 - [Project 1](https://github.com/KarahanS/University-Projects/tree/master/CmpE478%20-%20Parallel%20Processing/project1) `C++`
@@ -91,16 +90,16 @@
 - [Project 2](https://github.com/KarahanS/University-Projects/tree/master/CmpE480%20-%20Introduction%20to%20Artificial%20Intelligence/project2) `Prolog`
 - [Project 3](https://github.com/KarahanS/University-Projects/tree/master/CmpE480%20-%20Introduction%20to%20Artificial%20Intelligence/project3) `Python`
 
-### [CmpE493 - Introduction to Information Retrieval]()
-- [Assignment 1]()
-- [Assignment 2]()
-- [Assignment 3]()
+### [CmpE493 - Introduction to Information Retrieval](https://github.com/KarahanS/University-Projects/tree/master/CmpE493%20-%20Introduction%20to%20Information%20Retrieval)
+- [Assignment 1](https://github.com/KarahanS/University-Projects/tree/master/CmpE493%20-%20Introduction%20to%20Information%20Retrieval/assignment1) `Python`
+- [Assignment 2](https://github.com/KarahanS/University-Projects/tree/master/CmpE493%20-%20Introduction%20to%20Information%20Retrieval/assignment2) `Python`
+- [Assignment 3](https://github.com/KarahanS/University-Projects/tree/master/CmpE493%20-%20Introduction%20to%20Information%20Retrieval/assignment3)
 
-### [CmpE58P - Artificial Intelligence in Healthcare]()
-- [Assignment 1]()
-- [Assignment 2]()
-- [Assignment 3]()
-- [Assignment 4]()
+### [CmpE58P - Artificial Intelligence in Healthcare](https://github.com/KarahanS/University-Projects/tree/master/CmpE58P%20-%20Artificial%20Intelligence%20in%20Healthcare)
+- [Assignment 1](https://github.com/KarahanS/University-Projects/tree/master/CmpE58P%20-%20Artificial%20Intelligence%20in%20Healthcare/assignment1) `Python`
+- [Assignment 2](https://github.com/KarahanS/University-Projects/tree/master/CmpE58P%20-%20Artificial%20Intelligence%20in%20Healthcare/assignment2) `Python`
+- [Assignment 3](https://github.com/KarahanS/University-Projects/tree/master/CmpE58P%20-%20Artificial%20Intelligence%20in%20Healthcare/assignment3) `Python`
+- [Assignment 4](https://github.com/KarahanS/University-Projects/tree/master/CmpE58P%20-%20Artificial%20Intelligence%20in%20Healthcare/assignment4) `Python`
 
 ### [IE306 - Systems Simulation](https://github.com/KarahanS/University-Projects/tree/master/IE%20306%20-%20Systems%20Simulation)
 - [Assignment 1](https://github.com/KarahanS/University-Projects/tree/master/IE%20306%20-%20Systems%20Simulation/assignment1) `Python`
