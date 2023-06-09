@@ -65,7 +65,22 @@
 - [Lab 6](https://github.com/KarahanS/University-Projects/tree/master/CmpE344%20-%20Computer%20Organization/lab6)
 - [Lab 7](https://github.com/KarahanS/University-Projects/tree/master/CmpE344%20-%20Computer%20Organization/lab7) `C`
 
+### [CmpE462 - Machine Learning]()
+- [Assignment 1]()
+- [Assignment 2]()
+- [Assignment 3]()
+
 ### [CmpE443 - Principles of Embedded System Design]()
+- [Prelab 1]()
+- [Prelab 2]()
+- [Prelab 3]()
+- [Prelab 4]()
+- [Prelab 5]()
+- [Prelab 6]()
+- [Prelab 7]()
+- [Prelab 8]()
+- [Prelab 9]()
+- [Prelab 10]()
 
 ### [CmpE478 - Parallel Processing](https://github.com/KarahanS/University-Projects/tree/master/CmpE478%20-%20Parallel%20Processing)
 - [Project 1](https://github.com/KarahanS/University-Projects/tree/master/CmpE478%20-%20Parallel%20Processing/project1) `C++`
@@ -75,6 +90,17 @@
 - [Project 1](https://github.com/KarahanS/University-Projects/tree/master/CmpE480%20-%20Introduction%20to%20Artificial%20Intelligence/project1) `Python`
 - [Project 2](https://github.com/KarahanS/University-Projects/tree/master/CmpE480%20-%20Introduction%20to%20Artificial%20Intelligence/project2) `Prolog`
 - [Project 3](https://github.com/KarahanS/University-Projects/tree/master/CmpE480%20-%20Introduction%20to%20Artificial%20Intelligence/project3) `Python`
+
+### [CmpE493 - Introduction to Information Retrieval]()
+- [Assignment 1]()
+- [Assignment 2]()
+- [Assignment 3]()
+
+### [CmpE58P - Artificial Intelligence in Healthcare]()
+- [Assignment 1]()
+- [Assignment 2]()
+- [Assignment 3]()
+- [Assignment 4]()
 
 ### [IE306 - Systems Simulation](https://github.com/KarahanS/University-Projects/tree/master/IE%20306%20-%20Systems%20Simulation)
 - [Assignment 1](https://github.com/KarahanS/University-Projects/tree/master/IE%20306%20-%20Systems%20Simulation/assignment1) `Python`
@@ -86,6 +112,8 @@
 - [Assignment 2](https://github.com/KarahanS/University-Projects/tree/master/IE%20310%20-%20Operations%20Research/assignment2) `Python`
 - [Assignment 3](https://github.com/KarahanS/University-Projects/tree/master/IE%20310%20-%20Operations%20Research/assignment3) `Python`
 - [Assignment 4](https://github.com/KarahanS/University-Projects/tree/master/IE%20310%20-%20Operations%20Research/assignment4) `Python`
+
+### [CmpE 492 - Building a Word Embeddings Repository for Turkish](https://github.com/orgs/Turkish-Word-Embeddings/repositories)
 
 ### [CmpE 352/451 - Project Development in Software Engineering - Group 8](https://github.com/bounswe/bounswe2022group8)
 

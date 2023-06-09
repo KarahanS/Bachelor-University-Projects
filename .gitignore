@@ -14,5 +14,3 @@ __pycache__
 # Ignore IDE specific directories
 .vscode
 .idea
-# for now
-CmpE443* 
