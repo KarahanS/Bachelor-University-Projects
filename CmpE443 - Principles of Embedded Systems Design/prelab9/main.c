@@ -18,52 +18,233 @@
 
 #include <stdint.h>
 
+typedef struct {
+	volatile uint32_t MODER;
+	volatile uint32_t OTYPER;
+	volatile uint32_t OSPEEDR;
+	volatile uint32_t PUPDR;
+	volatile uint32_t IDR;
+	volatile uint32_t ODR;
+	volatile uint32_t BSRR;
+	volatile uint32_t LCKR;
+	volatile uint32_t AFRL;
+	volatile uint32_t AFRH;
+	volatile uint32_t BRR;
+	uint32_t RESERVED;
+	volatile uint32_t SECCFGR;
+} GPIO_TypeDef;
+
+typedef struct {
+  volatile uint32_t CR1;
+  volatile uint32_t CR2;
+  volatile uint32_t SMCR;
+  volatile uint32_t DIER;
+  volatile uint32_t SR;
+  volatile uint32_t EGR;
+  volatile uint32_t CCMR1;
+  volatile uint32_t CCMR2;
+  volatile uint32_t CCER;
+  volatile uint32_t CNT;
+  volatile uint32_t PSC;
+  volatile uint32_t ARR;
+  volatile uint32_t RCR;
+  volatile uint32_t CCR1;
+  volatile uint32_t CCR2;
+  volatile uint32_t CCR3;
+  volatile uint32_t CCR4;
+  volatile uint32_t BDTR;
+  volatile uint32_t DCR;
+  volatile uint32_t DMAR;
+  volatile uint32_t OR1;
+  volatile uint32_t CCMR3;
+  volatile uint32_t CCR5;
+  volatile uint32_t CCR6;
+  volatile uint32_t OR2;
+  volatile uint32_t OR3;
+} TIM_TypeDef;
+
+typedef struct {
+  volatile uint32_t ISER0;
+  volatile uint32_t ISER1;
+  volatile uint32_t ISER2;
+  volatile uint32_t ISER3;
+  volatile uint32_t ISER4;
+  volatile uint32_t ISER5;
+  volatile uint32_t ISER6;
+  volatile uint32_t ISER7;
+  volatile uint32_t ISER8;
+  volatile uint32_t ISER9;
+  volatile uint32_t ISER10;
+  volatile uint32_t ISER11;
+  volatile uint32_t ISER12;
+  volatile uint32_t ISER13;
+  volatile uint32_t ISER14;
+  volatile uint32_t ISER15;
+} NVIC_ISER_TypeDef;
+
+typedef struct {
+  volatile uint32_t ICER0;
+  volatile uint32_t ICER1;
+  volatile uint32_t ICER2;
+  volatile uint32_t ICER3;
+  volatile uint32_t ICER4;
+  volatile uint32_t ICER5;
+  volatile uint32_t ICER6;
+  volatile uint32_t ICER7;
+  volatile uint32_t ICER8;
+  volatile uint32_t ICER9;
+  volatile uint32_t ICER10;
+  volatile uint32_t ICER11;
+  volatile uint32_t ICER12;
+  volatile uint32_t ICER13;
+  volatile uint32_t ICER14;
+  volatile uint32_t ICER15;
+} NVIC_ICER_TypeDef;
+
+
+typedef struct {
+  volatile uint32_t ISR;
+  volatile uint32_t IER;
+  volatile uint32_t CR;
+  volatile uint32_t CFGR;
+  volatile uint32_t CFGR2;
+  volatile uint32_t SMPR1;
+  volatile uint32_t SMPR2;
+  uint32_t reserved1;
+  volatile uint32_t TR1;
+  volatile uint32_t TR2;
+  volatile uint32_t TR3;
+  uint32_t reserved2;
+  volatile uint32_t SQR1;
+  volatile uint32_t SQR2;
+  volatile uint32_t SQR3;
+  volatile uint32_t SQR4;
+  volatile uint32_t DR;  // 0x40
+  uint32_t reserved3;
+  uint32_t reserved4;
+  volatile uint32_t JSQR; // rest is not important
+} ADC_TypeDef;
+
+// offset = 0x300 from base address of ADC
+typedef struct {
+  volatile uint32_t CSR;            // 0x00
+  volatile uint32_t reserved1;      // 0x04
+  volatile uint32_t CCR;            // 0x08
+  volatile uint32_t CDR;
+} ADC_COMMON_TypeDef;
+
+#define NVIC_ISER ((NVIC_ISER_TypeDef *) 0xE000E100)
+#define NVIC_ICER ((NVIC_ISER_TypeDef *) (0xE000E180))
+
+#define RCC_AHB2ENR  *((volatile uint32_t *) (0x40021000 + 0x4C))
+#define RCC_APB1ENR1 *((volatile uint32_t *) (0x40021000 + 0x058))
+#define RCC_APB2ENR  *((volatile uint32_t *) (0x40021000 + 0x060))
+#define RCC_CCIPR1   *((volatile uint32_t *) (0x40021000 + 0x088))
+
+#define TIM15 ((TIM_TypeDef *)	0x40014000) // found in page 90-91
+#define TIM16 ((TIM_TypeDef *)	0x40014400)
+#define TIM1  ((TIM_TypeDef *)  0x40012C00)
+// TIM15 - 69 in vector table -->  ISER2 5. bit
+// TIM16 - 70 --> ISER2 6.bit
+
+#define GPIOA ((GPIO_TypeDef *) 0x42020000)
+#define GPIOB ((GPIO_TypeDef *) 0x42020400)
+#define GPIOC ((GPIO_TypeDef *) 0x42020800)
+
+#define ADC1             ((ADC_TypeDef *) 0x42028000)
+#define ADC_COMMON 		((ADC_TypeDef *) 0x42028000 + 0x300)
+
+
+void redOff() { GPIOA->BSRR = 1 << (9 + 16);}
+void redOn() {GPIOA->BSRR = 1 << 9;}
+void greenOff() {GPIOC->BSRR = 1 << (7 + 16);}
+void greenOn() {GPIOC->BSRR = 1 << 7;}
+void blueOff() {GPIOB->BSRR = 1 << (7 + 16);}
+void blueOn() {GPIOB->BSRR = 1 << 7;}
+
+/*
+ * 0x000 - 0x0B4 --> Master ADC1
+ * 0x0B8 - 0x0FC --> Reserved
+ * 0x100 - 0x1B4 --> Slave ADC2
+ * 0x1B8 - 0x2FC --> Reserved
+ * 0x300 - 0x30C --> Master and slave ADCs common registers
+ *
+ */
+uint32_t temp;
+uint32_t index;
+uint32_t wait_millisecond = 1000;
+
+#define MIN 0
+#define MAX 4096
 void ADC1_2_IRQHandler() {
+	temp = ADC1->DR;
+	if(temp > (3.0/4.0 * MAX)) {
+		redOn();
+		greenOn();
+		blueOn();
+	} else if(temp > (2.0/4.0 * MAX)) {
+		redOff();
+		greenOn();
+		blueOn();
+	}
+	 else if(temp > (1.0/4.0 * MAX)) {
+		redOff();
+		greenOff();
+		blueOn();
+	} else {
+		redOff();
+		greenOff();
+		blueOff();
+	}
+	ADC1->CR |=  (1 << 2); // Start regular conversion of ADC // ADSTART
 }
 
 
+// RED = PA9
+// BLUE = PB7
+// GREEN = PC7 (default configuration)
+
+// Potentiometer: PC0
 int main(void) {
 	//Enable Clock for GPIO
-	
+	RCC_AHB2ENR |= 0b1111;  // open port C, D
+
+	//Configure PA9, PB7, PC7 as General purpose output mode
+	GPIOA->MODER &= ~(1 << 19);   // pin 9 (19, 18   --> 0, 1)
+	GPIOB->MODER &= ~(1 << 15);   // pin 7 (15, 14   --> 0, 1)
+	GPIOC->MODER &= ~(1 << 15);   // pin 7 (15, 14 --> 0, 1)
+
 	//Enable Clock for ADC
-	
-	//Select ADC clock as System clock
-	
+	RCC_AHB2ENR |= 1 << 13;
+	ADC1->CR &= ~1; // disable ADC
+	//Select ADC clock source as System clock
+	RCC_CCIPR1 |= 11 << 28;        // (29, 28 --> 1, 1) - system clock selected
 
-	//Change Pin Mode to Analog
-	
+	GPIOC->MODER |= 11;    // pin 6 (1, 0 --> 1, 1) - Change Pin Mode to Analog
+	GPIOC->PUPDR &= ~(11);     // pin 6 (1, 0 --> 0, 0) Change Pin Pull/Down to no pull-up no pull-down
 
-	//Change Pin Pull/Down to no pull-up no pull-down
+	ADC1->SQR1 &= ~(1111);	   //Change Regular channel sequence length to 1 conversion
+	ADC1->SQR1 |= (1 << 6);   //Select ADC12_IN1 as the 1st conversion - add to channel to first sequence
+	ADC1->CR &= ~(1 << 29);    //Disable Deep-power-down for ADC
+	ADC1->CR |= (1 << 28);     //Enable ADC Voltage regulator
 
-	//Change Regular channel sequence length to 1 conversion
+	// wait for a while for voltage regulator to stabilize
+	for(index=0;index<wait_millisecond*100;index++);
 
+	ADC1->CFGR &= ~(1 << 13);  //Configure for Single conversion mode
+	ADC1->CR |= 1;  		   //ADEN = 1 (ADC enable control) - enable ADC
+	while(!(ADC1->ISR & 1));   //Wait for ADC to be enabled
+	ADC1->ISR |= 1;            // flag event is acknowledged and cleared by the software
 
-	//Add to channel to first sequence
-	
+	// 37 ADC1_2 ADC1_2 global interrupt
+	NVIC_ISER->ISER1 |= 1 << 5; //enable global signaling for ADC interrupt - Interrupt Request (IRQ)
 
-	//Disable Deep-power-down for ADC
-	
-
-	//Enable ADC Voltage regulator
-	
-
-	//Configure for Single conversion mode
-	
-
-	//Enable ADC
-	
-
-	//Wait ADC is enabled
-	
-
-	//Enable interrupt for end of regular conversion
-	
-
-
-	//Start regular conversion of ADC
+	ADC1->IER |= (1 << 2); // EOCIE - end of regular conversion interrupt - EOC interrupt
+	ADC1->CR |=  (1 << 2);  // //Start regular conversion of ADC - ADSTART
 
 	//Write program according to problem description
 	while(1){
-
+		__asm volatile("wfi");
 	}
 }
+

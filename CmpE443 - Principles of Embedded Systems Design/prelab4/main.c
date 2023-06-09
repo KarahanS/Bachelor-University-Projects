@@ -21,31 +21,38 @@
 uint32_t wait_millisecond = 1000;
 uint32_t wait_counter = 0;
 
+// LED1 = PA9
+// LED2 = PB7
+// Push Button = PC13
+
 //Define Registers
 #define RCC_AHB2ENR *((volatile uint32_t *) 0x4002104C)
-#define GPIOA_MODER *((volatile uint32_t *) 0x42020000)
-#define GPIOA_ODR *((volatile uint32_t *) 0x42020014)
+#define LED1_MODER *((volatile uint32_t *) 0x42020400)   // PB7
+#define LED2_MODER *((volatile uint32_t *) 0x42020800)   // PC7
+#define LED1_ODR *((volatile uint32_t *) 0x42020414)
+#define LED2_ODR *((volatile uint32_t *) 0x42020814)
+#define PUSHBUTTON_MODER *((volatile uint32_t *) 0x42020800)
+#define PUSHBUTTON_IDR *((volatile uint32_t *) 0x42020810)
+
 
 int main(void) {
 	//Enable Clock for GPIO
-	RCC_AHB2ENR |= (1);
+	RCC_AHB2ENR |= 111;  // open port A, B, C
 
 	//Configure Pin as General purpose output mode
-	GPIOA_MODER &= ~(1 << 19);
+	LED1_MODER &= ~(1 << 15);
+	LED2_MODER &= ~(1 << 15);
+
+	// Configure Pin as input mode
+	PUSHBUTTON_MODER &= ~(11 << 26); // set 27, 26 to 00
 
 	while(1) {
-		int index;
-
-		//Turn On LED
-
-		GPIOA_ODR |= (1 << 9); //Turn on LED1
-		for(index=0;index<wait_millisecond*333;index++);
-		wait_counter = wait_counter + 1;
-
-		//Turn Off LED
-		GPIOA_ODR &= ~(1 << 9); //Turn off LED1
-
-		for(index=0;index<wait_millisecond*333;index++);
-		wait_counter = wait_counter + 1;
+		if(PUSHBUTTON_IDR & (1 << 13)) { // button is pressed
+			LED2_ODR |= (1 << 7);  // Turn on green
+			LED1_ODR &= ~(1 << 7); //Turn off blue
+		} else {
+			LED1_ODR |= (1 << 7); // Turn on blue
+			LED2_ODR &= ~(1 << 7);  // Turn off green
+		}
 	}
 }
